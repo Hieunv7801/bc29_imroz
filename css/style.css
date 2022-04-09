@@ -819,6 +819,33 @@ footer {
         margin-bottom: 1rem;
     }
 }
+.backToTop{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    color: #FD4766;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0;
+    visibility: hidden;
+    border: 2px solid gray;
+}
+.backToTop:hover{
+    color: #FD4766;
+}
+.cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .cd-top--fade-out { 
+    opacity: .5;
+  }
 /* ul.testimonial-thumb-wrapper li a.active.thumb::after{
     background-color: hsla(0, 0%, 100%, 0);
 }
